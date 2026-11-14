@@ -1,0 +1,6 @@
+[project]
+name = "depquiet-fixpr-test"
+version = "0.1.0"
+description = "Test project for depquiet's fix-pr: botocore holds urllib3 on a vulnerable release."
+requires-python = ">=3.11"
+dependencies = ["requests==2.31.0", "botocore==1.29.0"]
