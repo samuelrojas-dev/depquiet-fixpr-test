@@ -18,4 +18,5 @@ jobs:
           fail-on-action: "false"
       - env:
           PR_URL: ${{ steps.depquiet.outputs.fix-pr-url }}
-        run: echo "Fix pull request: $PR_URL"
+        run: |
+          echo "Fix pull request: $PR_URL"
