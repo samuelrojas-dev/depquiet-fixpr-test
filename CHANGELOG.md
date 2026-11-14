@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-11-14
+
+- Third test release.
+
 ## [0.1.1] - 2026-11-14
 
 - Second test release.
