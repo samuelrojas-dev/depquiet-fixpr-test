@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "demo"
+version = "0.1.0"
+description = ""
+authors = ["t <t@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "2.31.0"
+botocore = "1.29.0"
