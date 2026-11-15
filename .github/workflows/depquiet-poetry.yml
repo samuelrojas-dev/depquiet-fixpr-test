@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Tests the Poetry support before it is released.
-      - uses: samuelrojas-dev/depquiet@feat/poetry-fix-plan
+      - uses: samuelrojas-dev/depquiet@v0
         id: depquiet
         with:
           path: poetry-app
