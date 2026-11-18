@@ -17,8 +17,8 @@ stay open.
 ## What depquiet did
 
 The [depquiet fixes](.github/workflows/depquiet-fixes.yml) workflow runs the depquiet
-GitHub Action with `fix-pr: "true"`. depquiet worked out that botocore has to move to
-1.44.3 for urllib3 to reach 2.8.0, checked with uv's resolver that every fix installs
+GitHub Action with `fix-pr: "true"`. depquiet worked out that botocore has to move first
+(to 1.44.5, on the run of 2026-11-18, with depquiet 0.48.0) for urllib3 to reach 2.8.0, checked with uv's resolver that every fix installs
 together, and opened one pull request:
 
 - **uv project** (this folder): [pull request #1](../../pull/1)
